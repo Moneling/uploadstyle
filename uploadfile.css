@@ -1,0 +1,60 @@
+input{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.file-upload{
+	width: 600px;
+	height: 50px;
+	position: relative;
+}
+.file-upload-left{
+	width: 400px;
+	height: 40px;
+	float: left;
+	background-color:red;
+}
+#showInp{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	border:1px solid #cdcdcd;
+	box-sizing: border-box;
+	border-right: none;
+	font-size: 24px;
+}
+
+
+.file-upload-right{
+	width: 100px;
+	height: 40px;
+	float: left;
+	
+}
+
+.file-upload-right span{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border:1px solid #DCE9F3;
+	background-color:#428BCB;
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 38px;
+	line-height: 40px;
+	color: white;
+}
+.file-upload-right span i{
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+#fileup{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}

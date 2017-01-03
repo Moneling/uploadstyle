@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>自定义文件上传插件</title>
+	<link rel="stylesheet" href="uploadfile.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+		<div class="file-upload">
+				<div class="file-upload-left">
+					<input type="text" name="" id="showInp">
+				</div>
+				<div class="file-upload-right">
+					<span><i class="icon-folder-open"></i>选择...</span>
+				</div>	
+				 <input type="file" name="fileup" id = "fileup" onchange="document.getElementById('showInp').value=this.value"> 
+		</div>
+</body>
+</html>
